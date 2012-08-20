@@ -207,10 +207,10 @@ hi Cursor          guifg=#000d18 guibg=#8faf9f gui=bold
 hi Debug           guifg=#bca3a3 gui=bold
 hi Define          guifg=#ffcfaf gui=bold
 hi Delimiter       guifg=#8f8f8f
-hi DiffAdd         guifg=#709080 guibg=#313c36 gui=bold
+hi DiffAdd         guifg=#709080 guibg=#313c36
 hi DiffChange      guibg=#333333
 hi DiffDelete      guifg=#333333 guibg=#464646
-hi DiffText        guifg=#ecbcbc guibg=#41363c gui=bold
+hi DiffText        guifg=#ecbcbc guibg=#41363c
 hi Directory       guifg=#9fafaf gui=bold
 hi ErrorMsg        guifg=#80d4aa guibg=#2f2f2f gui=bold
 hi Exception       guifg=#c3bf9f gui=bold
@@ -268,10 +268,10 @@ if &t_Co > 255
     hi Debug           ctermfg=181   cterm=bold
     hi Define          ctermfg=223   cterm=bold
     hi Delimiter       ctermfg=245
-    hi DiffAdd         ctermfg=66    ctermbg=237     cterm=bold
-    hi DiffChange      ctermbg=236
-    hi DiffDelete      ctermfg=236   ctermbg=238
-    hi DiffText        ctermfg=217   ctermbg=237     cterm=bold
+    hi DiffAdd         ctermfg=192    ctermbg=22
+    hi DiffChange      ctermbg=24
+    hi DiffDelete      ctermfg=16   ctermbg=52
+    hi DiffText        ctermfg=237   ctermbg=195
     hi Directory       ctermfg=109   cterm=bold
     hi ErrorMsg        ctermfg=115   ctermbg=236     cterm=bold
     hi Exception       ctermfg=249   cterm=bold
@@ -279,7 +279,7 @@ if &t_Co > 255
     hi Function        ctermfg=228
     hi Identifier      ctermfg=223
     hi Include         ctermfg=180   cterm=bold
-    hi IncSearch       ctermbg=228   ctermfg=238
+    hi IncSearch       ctermbg=228   ctermfg=124
     hi Keyword         ctermfg=223   cterm=bold
     hi LineNr          ctermfg=248   ctermbg=233
     hi Macro           ctermfg=223   cterm=bold
@@ -344,13 +344,13 @@ if &t_Co > 255
     else
         hi Normal ctermfg=188 ctermbg=237
         hi Cursor          ctermbg=109
-        hi diffadd         ctermbg=237
-        hi diffdelete      ctermbg=238
-        hi difftext        ctermbg=237
+        hi diffadd         ctermbg=22
+        hi diffdelete      ctermbg=52
+        hi difftext        ctermbg=195
         hi errormsg        ctermbg=237
         hi incsearch       ctermbg=228
         hi linenr          ctermbg=235
-        hi search          ctermbg=238
+        hi search          ctermbg=124
         hi statement       ctermbg=237
         hi statusline      ctermbg=144
         hi statuslinenc    ctermbg=108
