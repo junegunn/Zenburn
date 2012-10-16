@@ -279,7 +279,7 @@ if &t_Co > 255
     hi Function        ctermfg=228
     hi Identifier      ctermfg=223
     hi Include         ctermfg=180   cterm=bold
-    hi IncSearch       ctermbg=228   ctermfg=124
+    hi IncSearch       ctermbg=228   ctermfg=196
     hi Keyword         ctermfg=223   cterm=bold
     hi LineNr          ctermfg=248   ctermbg=233
     hi Macro           ctermfg=223   cterm=bold
@@ -291,7 +291,7 @@ if &t_Co > 255
     hi PreProc         ctermfg=223   cterm=bold
     hi Question        ctermfg=15    cterm=bold
     hi Repeat          ctermfg=223   cterm=bold
-    hi Search          ctermfg=230   ctermbg=236
+    hi Search          ctermbg=236   ctermfg=230
     hi SpecialChar     ctermfg=181   cterm=bold
     hi SpecialComment  ctermfg=108   cterm=bold
     hi Special         ctermfg=181
@@ -304,7 +304,8 @@ if &t_Co > 255
     hi Structure       ctermfg=229   cterm=bold
     hi Tag             ctermfg=181   cterm=bold
     hi Title           ctermfg=7     ctermbg=234     cterm=bold
-    hi Todo            ctermfg=108   ctermbg=234     cterm=bold
+    " TODO XXX FIXME
+    hi Todo            ctermfg=22    ctermbg=226     cterm=bold
     hi Typedef         ctermfg=253   cterm=bold
     hi Type            ctermfg=187   cterm=bold
     hi Underlined      ctermfg=188   ctermbg=234     cterm=bold
@@ -350,12 +351,12 @@ if &t_Co > 255
         hi errormsg        ctermbg=237
         hi incsearch       ctermbg=228
         hi linenr          ctermbg=235
-        hi search          ctermbg=124
+        hi search          ctermbg=26
         hi statement       ctermbg=237
         hi statusline      ctermbg=144
         hi statuslinenc    ctermbg=108
         hi title           ctermbg=237
-        hi todo            ctermbg=237
+        hi todo            ctermbg=226
         hi underlined      ctermbg=237
         hi vertsplit       ctermbg=65
         hi visualnos       ctermbg=210
